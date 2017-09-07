@@ -1,0 +1,38 @@
+{
+    "name" : "kerisy/framework",
+    "description": "A web framework base on the swoole",
+    "keywords": ["framework", "swoole", "restful"],
+    "authors" : [
+        {
+            "name" : "Zhang Jianfeng",
+            "email": "zhangjianfeng@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-swoole": ">=1.9.1",
+        "ext-apcu": ">=4.0.7",
+        "psr/cache": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/simple-cache": "^1.0",
+        "psr/container": "^1.0",
+        "symfony/console": "^2.7",
+        "monolog/monolog": "~1.0",
+        "predis/predis": ">=1.1.1",
+        "symfony/console": "^3.0",
+        "nesbot/carbon": "^1.22"
+    },
+    "autoload": {
+        "files": [
+            "src/Kerisy.php"
+        ],
+        "psr-4": {
+            "Kerisy\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "vendor",
+        "preferred-install": "dist"
+    }
+}
