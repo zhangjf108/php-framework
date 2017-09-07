@@ -1,5 +1,5 @@
 {
-    "name" : "kerisy/framework",
+    "name" : "zhangjf108/php-framework",
     "description": "A web framework base on the swoole",
     "keywords": ["framework", "swoole", "restful"],
     "authors" : [
